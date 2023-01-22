@@ -1,0 +1,20 @@
+@import "@styles/variables.scss";
+
+.badge {
+  padding: 5px 14px;
+  background-color: var(--text-primary);
+  color: var(--background-primary);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.outlined {
+  background-color: transparent;
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+}

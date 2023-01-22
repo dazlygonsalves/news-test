@@ -1,0 +1,22 @@
+@import "@styles/variables.scss";
+
+.circle {
+  position: relative;
+
+  height: 19.613969802856445px;
+  width: 19.613969802856445px;
+  border-radius: 100%;
+  background-color: var(--text-primary);
+}
+
+.shape {
+  position: absolute;
+  left: -24.06%;
+  right: 29.28%;
+  top: -28.28%;
+  bottom: 33.5%;
+  height: 19.613969802856445px;
+  width: 19.613969802856445px;
+  border-radius: 100%;
+  background-color: var(--text-secondary);
+}

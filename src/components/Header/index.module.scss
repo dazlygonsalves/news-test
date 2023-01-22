@@ -1,0 +1,38 @@
+@import "@styles/variables.scss";
+
+.header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  text-transform: uppercase;
+  border-bottom: 3px dashed #aeaeac;
+  margin-bottom: 41px;
+  padding-bottom: 29.5px;
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .logo {
+    justify-self: center;
+  }
+
+  .links {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 71px;
+  }
+
+  .options {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+}

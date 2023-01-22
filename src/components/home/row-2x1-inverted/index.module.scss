@@ -1,0 +1,70 @@
+@import "@styles/variables.scss";
+
+.grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.img {
+  width: 379px;
+  height: 346px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  &:nth-child(odd) {
+    .content {
+      order: 2;
+    }
+
+    .img {
+      order: 1;
+    }
+  }
+
+  &:nth-child(even) {
+    .content {
+      order: 1;
+    }
+
+    .img {
+      order: 2;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.description {
+  width: 346px;
+  height: 46px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  text-align: center;
+}

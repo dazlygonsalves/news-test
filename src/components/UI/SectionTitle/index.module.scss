@@ -1,0 +1,17 @@
+@import "@styles/variables.scss";
+
+.wrapper {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+  padding: 10px 0;
+
+  border-style: dashed;
+  border-width: 3px 0 3px 0;
+  border-color: #aeaeac;
+}

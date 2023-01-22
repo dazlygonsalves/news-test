@@ -1,0 +1,54 @@
+@import "@styles/variables.scss";
+
+.grid {
+  display: grid;
+  gap: 44px;
+  grid-template-columns: repeat(3, 351px);
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--text-secondary);
+  display: flex;
+  width: min-content;
+  border: rgba(0, 0, 0, 0.3);
+  gap: 20px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  }
+
+  .img {
+    width: 116px;
+    height: 99px;
+    float: left;
+  }
+
+  .description {
+    width: 219px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .footer {
+    width: 60px;
+    height: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

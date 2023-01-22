@@ -1,0 +1,13 @@
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #f8f1e8;
+  --text-primary: #000000;
+  --text-secondary: #ffffff;
+}
+
+[data-theme="dark"] {
+  --background-primary: #232323;
+  --background-secondary: #434241;
+  --text-primary: #ffffff;
+  --text-secondary: #232323;
+}

@@ -1,0 +1,14 @@
+@import "@styles/variables.scss";
+
+.hamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7.14px;
+
+  &_line {
+    width: 30px;
+    border: 2px solid var(--text-primary);
+  }
+}
